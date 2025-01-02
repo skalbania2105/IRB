@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Inzynierka",
+    "slug": "Inzynierka",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "googleMapsApiKey": "AIzaSyDuNIECo5XmKZwrXycdxNUBUrEW870SIxw",
+      "bundleIdentifier": "com.patrycjanow.Inzynierka"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDuNIECo5XmKZwrXycdxNUBUrEW870SIxw"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "99223f00-337a-4523-a875-e4d834aa637d"
+      }
+    }
+  }
+}
